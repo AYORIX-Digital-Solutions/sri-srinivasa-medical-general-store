@@ -1,16 +1,71 @@
-# React + Vite
+# Sri Srinivasa Medical & General Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A clean, modern and responsive business website designed for **Sri Srinivasa Medical & General Store**, serving Shankarampally and surrounding villages in Jayashankar Bhupalpally District, Telangana.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The website provides a simple and trustworthy online presence for the store, making it easy for customers to discover the business, understand what it offers, find the location and get in touch directly.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for mobile, tablet and desktop
+- Premium, clean and modern UI
+- Smooth scroll animations and subtle interactions
+- Store information and business highlights
+- Medicines, personal care, baby care, health & wellness and general essentials sections
+- Direct phone call CTA
+- WhatsApp contact integration
+- Google Maps directions
+- Mobile sticky action bar
+- Custom loading experience
+- Custom 404 page
+- SEO-friendly metadata
+- Local business structured data
+- Accessible navigation and interactive elements
+- Optimized production build
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+- JavaScript
+
+## Business
+
+**Sri Srinivasa Medical & General Store**
+
+📍 Shankarampally, Kataram Mandal,  
+Jayashankar Bhupalpally District, Telangana
+
+📞 **9440539893**
+
+The store serves customers in **Shankarampally and surrounding villages**.
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── LoadingScreen.jsx
+│   ├── Hero.jsx
+│   ├── Highlights.jsx
+│   ├── About.jsx
+│   ├── Categories.jsx
+│   ├── WhyChooseUs.jsx
+│   ├── Contact.jsx
+│   ├── Location.jsx
+│   ├── CTA.jsx
+│   ├── Footer.jsx
+│   └── NotFound.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+
+public/
+├── images/
+│   └── store-board.png
+└── favicon.svg
