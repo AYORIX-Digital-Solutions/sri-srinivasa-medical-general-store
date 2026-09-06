@@ -140,15 +140,23 @@ function Footer() {
             </motion.div>
           </div>
 
-          {/* Bottom */}
-          <div className="flex flex-col gap-5 pt-7 text-xs text-[#89968D] sm:flex-row sm:items-center sm:justify-between">
-            <p>
-              © {new Date().getFullYear()} Sri Srinivasa Medical and General
-              Store. All rights reserved.
-            </p>
+ {/* Bottom */}
+<div className="flex flex-col gap-4 pt-7 text-xs text-[#89968D] sm:flex-row sm:items-center sm:justify-between">
+  <p>
+    © {new Date().getFullYear()} Sri Srinivasa Medical and General Store.
+    All rights reserved.
+  </p>
 
-            
-          </div>
+  <a
+    href="https://ayorix.in"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex w-fit items-center gap-1.5 font-medium text-[#AFC2B4] transition-colors duration-300 hover:text-white"
+  >
+    Designed & Developed by AYORIX Digital Solutions
+    <ArrowUpRight size={12} />
+  </a>
+</div>
         </div>
       </footer>
 
