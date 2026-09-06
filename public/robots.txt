@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sri-srinivasa-medical-store.vercel.app/sitemap.xml
